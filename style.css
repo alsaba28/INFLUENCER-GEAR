@@ -1,0 +1,61 @@
+ /* Adding fonts */
+
+ .font-poppins {
+     font-family: 'Poppins', sans-serif;
+ }
+
+ /* Universal Elements*/
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ /*Common Classes*/
+
+ a {
+     text-decoration: none;
+     color: inherit;
+ }
+
+ /* Navigation Bar Start*/
+
+
+ #nav-bar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 3rem;
+ }
+
+ #nav-bar .nav-heading {
+     color: rgba(58, 58, 58, 1);
+     font-size: 1rem;
+     font-weight: 700;
+ }
+
+ #nav-bar .nav-links {
+     display: flex;
+     align-items: center;
+     gap: 2rem;
+ }
+
+ #nav-bar .nav-links a {
+     color: rgba(58, 58, 58, 1);
+ }
+
+ #nav-bar .nav-links img {
+     color: rgba(0, 0, 0, 1)
+ }
+
+ #nav-bar .nav-links .search {
+     width: 24px;
+     height: 24px;
+ }
+
+ #nav-bar .nav-links .cart {
+     width: 36px;
+     height: 36px;
+ }
+
+ /* Navigation Bar End*/
