@@ -4,48 +4,48 @@
      font-family: 'Poppins', sans-serif;
  }
 
- /* Universal Elements*/
+ /* Universal Elements */
 
  * {
      margin: 0;
      padding: 0;
  }
 
- /*Common Classes*/
+ /* Common Classes */
 
  a {
      text-decoration: none;
      color: inherit;
  }
 
- .container{
-    max-width: 1440px;
-    width: 90%;
-    margin: auto;
+ .container {
+     max-width: 1440px;
+     width: 90%;
+     margin: auto;
  }
 
- #btn{
-    background: rgba(224, 44, 109, 1);
-    color: rgba(255, 255, 255, 1);
-    display: flex;
-    justify-content: row;
-    align-items: center;
-    gap: .1rem;
-    font-size: 1rem;
-    font-weight: 700;
-    padding: 10px 24px;
-    cursor: pointer;
-    transition: transform 0.2s ease, background 0.2s ease;
+ #btn {
+     background: rgba(224, 44, 109, 1);
+     color: rgba(255, 255, 255, 1);
+     display: flex;
+     justify-content: row;
+     align-items: center;
+     gap: .1rem;
+     font-size: 1rem;
+     font-weight: 700;
+     padding: 10px 24px;
+     cursor: pointer;
+     transition: transform 0.2s ease, background 0.2s ease;
  }
 
- #btn:hover{
-    background: rgba(234, 64, 129, 1);
-    color: rgba(255, 255, 255, 1);
-    box-shadow: 0 4px 12px rgba(224, 44, 109, 0.4);
-    transform: scale(1.05);
+ #btn:hover {
+     background: rgba(234, 64, 129, 1);
+     color: rgba(255, 255, 255, 1);
+     box-shadow: 0 4px 12px rgba(224, 44, 109, 0.4);
+     transform: scale(1.05);
  }
 
- /* Navigation Bar Start*/
+ /* Navigation Bar Start */
 
 
  #nav-bar {
@@ -87,41 +87,54 @@
 
  /* Navigation Bar End*/
 
- /*Banner Section Start*/
+ /* Banner Section Start */
 
- #banner{
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
+ #banner {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
  }
 
- #banner .banner-content .banner-heading{
-    color: rgba(58, 58, 58, 1);
-    font-size: 3rem;
-    font-weight: 700;
-    max-width: 34rem;
-    line-height: 4.5rem;
-    margin-bottom: 1rem;
+ #banner .banner-content .banner-heading {
+     color: rgba(58, 58, 58, 1);
+     font-size: 3rem;
+     font-weight: 700;
+     max-width: 34rem;
+     line-height: 4.5rem;
+     margin-bottom: 1rem;
  }
 
  #banner .banner-content .banner-text {
-    color: rgba(58, 58, 58, 1);
-    font-size: 1rem;
-    line-height: 1.2rem;
-    max-width: 33rem;
-    margin-bottom: 1rem;
+     color: rgba(58, 58, 58, 1);
+     font-size: 1rem;
+     line-height: 1.2rem;
+     max-width: 33rem;
+     margin-bottom: 1rem;
  }
 
- #banner .banner-content .primary-btn{
-    border-radius: 41px;
+ #banner .banner-content .primary-btn {
+     border-radius: 41px;
+     margin-bottom: 12rem;
  }
 
- #banner .banner-img{
-    background-image: url(./Assets/images/Circle\ design.svg);
-    max-width: 440px;
-    width: 100%;
-    height: auto;
-    margin-bottom: 4rem; ;
+ #banner .banner-img {
+     background-image: url(./Assets/images/Circle\ design.svg);
+     max-width: 440px;
+     width: 100%;
+     height: auto;
+     margin-bottom: 4rem;
+     ;
  }
 
- /*Banner Section End*/
+ /* Banner Section End */
+
+ /* Sponsor Section Start */
+
+ .sponsor-company {
+     display: flex;
+     justify-content: space-around;
+     gap: 5rem;
+     margin-bottom: 7rem;
+ }
+
+ /* Sponsor Section End */
