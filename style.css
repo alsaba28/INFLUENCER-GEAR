@@ -133,6 +133,7 @@
  .sponsor-company {
      display: flex;
      justify-content: space-around;
+     flex-wrap: wrap;
      gap: 5rem;
      margin-bottom: 7rem;
  }
